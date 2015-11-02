@@ -1,6 +1,6 @@
 name: Feldman
 description: Steven Feldman's Personal Site
 paginate: 10
-baseurl: ''
+baseurl: 'feldmancc'
 
 exclude: ["samples"]
