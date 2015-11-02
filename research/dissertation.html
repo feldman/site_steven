@@ -1,0 +1,59 @@
+---
+title: "PhD Research"
+layout: default
+---
+
+<!-- Main -->
+  <section class="wrapper style1">
+    <div class="container">
+      <div id="content">
+
+        <!-- Content -->
+
+          <article>
+            <header>
+              <h2>Dissertation Abstract </h2>
+            </header>
+
+            <p>My research has been on the development of concurrent algorithms for shared memory systems that provide guarantees of progress.
+            Research into such algorithms is important to developers implementing applications on mission critical and time sensitive systems.
+            These guarantees of progress provide safety properties and freedom from many hazards, such as dead-lock, live-lock, and thread starvation.
+            In addition to the safety concerns, the fine-grained synchronization used in implementing these algorithms promises to provide scalable performance in massively parallel systems.
+            </p>
+
+            <p>
+            My research has resulted in the development of wait-free versions of the stack, hash map, ring buffer, vector, and a multi-word compare-and-swap algorithms.
+            Through this experience, I have learned and developed new techniques and methodologies for implementing non-blocking and wait-free algorithms.
+            I have worked with and refined existing techniques to improve their practicality and applicability.
+            In the creation of the aforementioned algorithms, I have developed an association model for use with descriptor-based operations.
+            This model, originally developed for the multi-word compare-and-swap algorithm, has been applied to the design of the vector and ring buffer algorithms.
+            </p>
+
+            <p>
+            To unify these algorithms and techniques, I have released Tervel, a wait-free library of common algorithms and containers.
+            This library includes a framework that simplifies and improves the design of non-blocking algorithms.
+            I have reimplemented several algorithms using this framework and the resulting implementation exhibits less code duplication and fewer perceivable states.
+            When reimplementing algorithms, I have adapted their Application Programming Interface (API) specification to remove ambiguity and non-deterministic behavior found when using a sequential API in a concurrent environment.
+            </p>
+
+            <p>
+            To improve the performance of my algorithm implementations, I extended OVIS's Lightweight Distributed Metric Service (LDMS)'s data collection and transport system to support performance monitoring using perf_event and PAPI libraries.
+            These libraries have provided me with deeper insights into the behavior of my algorithms, and I was able to use these insights to improve the design and performance of my algorithms.
+            </p>
+
+            <header>
+              <h2> Full Dissertation </h2>
+              <a href="https://digital.library.ucf.edu/cdm/landingpage/collection/ETD">
+              My dissertation can be found on the University of Central Florida's digital library.</a>
+            </header>
+
+          </article>
+
+      </div>
+    </div>
+  </section>
+
+
+
+
+
